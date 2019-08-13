@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <addedbytes translate="label" module="addedbytes_pushover">
+            <label>Added Bytes</label>
+            <sort_order>90</sort_order>
+        </addedbytes>
+    </tabs>
+    <sections>
+        <pushover translate="label" module="addedbytes_pushover">
+            <label>Pushover</label>
+            <tab>addedbytes</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>25</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <pushover_options translate="label">
+                    <label>Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <pushover_active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </pushover_active>
+                    </fields>
+                </pushover_options>
+                <pushover_settings translate="label">
+                    <label>Pushover Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <pushover_api_token translate="label">
+                            <label>Application API Token</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>0</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>
+                                <![CDATA[Pushover application token. Register your app at <a target="_blank" href="https://pushover.net/apps/">https://pushover.net/apps/</a>. Please note free apps are limited to 7,500 notifications per month.]]>
+                            </comment>
+                        </pushover_api_token>
+                        <pushover_user_keys translate="label">
+                            <label>User Key(s)</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>
+                                <![CDATA[Pushover user key to notify (if more than one, separate with commas).]]>
+                            </comment>
+                        </pushover_user_keys>
+                    </fields>
+                </pushover_settings>
+                <!--<pushover_events translate="label">
+                    <label>Pushover Events</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>20</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <pushover_sales_order_place_after translate="label">
+                            <label>New Order Placed</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </pushover_sales_order_place_after>
+                        <pushover_customer_register_success translate="label">
+                            <label>New Customer Registered</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </pushover_customer_register_success>
+                    </fields>
+                </pushover_events>-->
+            </groups>
+        </pushover>
+    </sections>
+</config>

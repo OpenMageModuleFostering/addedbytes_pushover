@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This module sends notifications to your phone or other devices when orders
+ * are placed through Magento.
+ *
+ * By Added Bytes
+ * http://www.addedbytes.com
+ */
+-->
+<config>
+    <modules>
+        <Addedbytes_Pushover>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Addedbytes_Pushover>
+    </modules>
+</config>

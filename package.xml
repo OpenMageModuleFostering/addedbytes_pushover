@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+    <name>Addedbytes_Pushover</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Receive notifications of new orders on your mobile devices via Pushover.</summary>
+    <description>    &lt;p&gt;This simple extension adds integration with the Pushover notification system to your Magento store.&lt;/p&gt;&#xD;
+&#xD;
+    &lt;h3&gt;How Do I Use It?&lt;/h3&gt;&#xD;
+&#xD;
+    &lt;p&gt;To install the extension:&lt;/p&gt;&#xD;
+&#xD;
+    &lt;ul&gt;&#xD;
+        &lt;li&gt;Download the zip, and extract the contents&lt;/li&gt;&#xD;
+        &lt;li&gt;Upload the contents of the httpdocs folder to your website root folder&lt;/li&gt;&#xD;
+        &lt;li&gt;Clear Magento caches&lt;/li&gt;&#xD;
+        &lt;li&gt;Log out and log back in again&lt;/li&gt;&#xD;
+        &lt;li&gt;Go to System &amp;gt; Configuration &amp;gt; Added Bytes &amp;gt; Pushover and enter the appropriate credentials into the form.&lt;/li&gt;&#xD;
+    &lt;/ul&gt;&#xD;
+&#xD;
+    &lt;h3&gt;How Do I Get Support?&lt;/h3&gt;&#xD;
+&#xD;
+    &lt;p&gt;For technical or sales enquiries, please &lt;a href="mailto:support+pushover@addedbytes.com"&gt;email our support team&lt;/a&gt;.&lt;/p&gt;</description>
+    <notes>This release includes the base functionality. It allows you to link multiple Pushover accounts to your Magento stores and receive a notification whenever a new order is placed.</notes>
+    <authors><author><name>AddedBytes</name><user>AddedBytes</user><email>dave@addedbytes.com</email></author></authors>
+    <date>2015-09-02</date>
+    <time>20:01:38</time>
+    <contents><target name="magelocal"><dir name="Addedbytes"><dir name="Pushover"><dir name="Helper"><file name="Data.php" hash="d72220fac58c76840667fa67797322da"/></dir><dir name="Model"><file name="Observer.php" hash="4ff13a9670a3998c092cca8abae71683"/></dir><dir name="etc"><file name="config.xml" hash="f797aa0c319cdfa7d43a5d492a418020"/><file name="system.xml" hash="e9f614bc12e19523f3b95f8b2402fc04"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Addedbytes_Pushover.xml" hash="a04e8c2acde98e1d23e96299ad55ccee"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
