@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Addedbytes_Pushover",
+    "name": "OpenMageModuleFostering\/Addedbytes_Pushover",
     "type": "magento-module",
     "license": "Open-Software-License",
     "homepage": "",
     "description": "Receive notifications of new orders on your mobile devices via Pushover.",
     "authors": [
-    {
-        "name": "AddedBytes",
-        "email": "dave@addedbytes.com"
-    }
-],
+        {
+            "name": "AddedBytes",
+            "email": "dave@addedbytes.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
