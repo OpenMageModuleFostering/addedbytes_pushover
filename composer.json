@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Addedbytes_Pushover",
+    "name": "openmage-module-fostering\/addedbytes_pushover",
     "type": "magento-module",
-    "license": "Open-Software-License",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Receive notifications of new orders on your mobile devices via Pushover.",
     "authors": [
